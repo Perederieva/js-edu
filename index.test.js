@@ -1,6 +1,6 @@
-var { expect } = require('chai')
+var { expect } = require('chai');
 
-const getTimeForEducation = require('./src/index')
+const getTimeForEducation = require('./src/index');
 
 const defaultStudentSpeedConfig = {
     family: 4,
@@ -9,7 +9,7 @@ const defaultStudentSpeedConfig = {
     profession: 30,
     carrier: 40,
     top_peformance: 60
-}
+};
 
 const problemStudentSpeedConfig = {
     family: 2,
@@ -17,14 +17,14 @@ const problemStudentSpeedConfig = {
     normal_life: 8,
     profession: 20,
     carrier: 30
-}
+};
 
 const talentedStudentSpeedConfig = {
     normal_life: 30,
     profession: 40,
     carrier: 55,
     top_peformance: 70
-}
+};
 
 
 
